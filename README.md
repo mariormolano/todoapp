@@ -24,27 +24,7 @@ Este es un proyecto básico de una aplicación de lista de tareas desarrollado p
 - **Spring Security**
 - **MySQL**
 
-## Instalación
 
-1. Clona el repositorio:
-    ```bash
-    git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-    ```
-2. Navega al directorio del proyecto:
-    ```bash
-    cd TU_REPOSITORIO
-    ```
-3. Configura la base de datos en `application.properties`:
-    ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/tododb
-    spring.datasource.username=root
-    spring.datasource.password=tu_contraseña
-    spring.jpa.hibernate.ddl-auto=update
-    ```
-4. Ejecuta la aplicación:
-    ```bash
-    ./mvnw spring-boot:run
-    ```
 
 ## Uso
 
